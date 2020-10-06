@@ -2,9 +2,11 @@
 
 [![license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/andypiper/TwitterDotNetCore/blob/master/LICENSE) [![v1.1](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fstandard)](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/pin-based-oauth) [![Twitter Follow](https://badgen.net/twitter/follow/andypiper)](https://twitter.com/intent/follow?screen_name=andypiper)
 
-Authinvi is a .NET console application library for authenticating Twitter users to Twitter apps, using PIN-based authentication
+Authinvi is a .NET console application library for authenticating Twitter users to Twitter apps, using PIN-based authentication.
 
-If you have a Twitter app that supports Sign-in With Twitter, you can authenticate additional Twitter users to the app and retrieve user access token and access token secrets, via a web-browser and PIN-based login flow. This is useful when authenticating multiple users to an app when you don't want to build a full authentication backend - for example, authenticating "bot" users to a script or application of your choice
+If you have a Twitter app that supports Sign-in With Twitter, you can authenticate additional Twitter users to the app and retrieve user access token and access token secrets, via a web-browser and PIN-based login flow. This is useful when authenticating multiple users to an app when you don't want to build a full authentication backend - for example, authenticating "bot" users to a script or application of your choice.
+
+It is almost identical to / based on [the great example code from the Tweetinvi documentation](https://linvi.github.io/tweetinvi/dist/authentication/authentication-pin-code.html), built because I wanted a single executable to use as an example for bot developers. Inevitably, it may evolve and grow over time. 
 
 ## Build & Run
 
@@ -29,7 +31,10 @@ $ authinvi [CONSUMER_KEY] [CONSUMER_SECRET] // from release folder
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. There are already TODOs in the code...
 
 ## License
 [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
+
+## Credit / shout-out
+* [@linvi](https://github.com/linvi) - who has poured his talents and care into a great .NET experience for Twitter developers for more years than I can remember. Thank you! 
