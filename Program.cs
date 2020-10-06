@@ -7,8 +7,8 @@ using Tweetinvi;
 // basically a runabble implementation of
 // https://linvi.github.io/tweetinvi/dist/authentication/authentication-pin-code.html
 
-// todo add help and error handling
-// and a readme and stuff like that
+// TODO: add help and error handling
+// TODO: add the ability to revoke instead of issue
 
 namespace authinvi
 {
@@ -28,7 +28,7 @@ namespace authinvi
                 UseShellExecute = true
             });
 
-            // Ask the user to enter the pin code returned by Twitter
+            // Ask the user to enter the PIN code returned by Twitter
             Console.WriteLine("Please enter the code and press enter.");
             var pinCode = Console.ReadLine();
 
